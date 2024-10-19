@@ -1,0 +1,67 @@
+
+.cart {
+  max-width: 600px; 
+  align-items: right;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h4 {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.cart ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.cart li {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 0; 
+  border-bottom: 1px solid #eee; 
+}
+
+.cart li:last-child {
+  border-bottom: none; 
+}
+
+.cart input[type="number"] {
+  width: 50px; 
+  margin: 0 10px; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.cart button {
+  background-color: #db6abf; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.cart button:hover {
+  background-color: #af5599; /* Color más oscuro al pasar el mouse */
+}
+
+.cart .clear-button {
+  background-color: #dc3545; /* Color de fondo del botón de vaciar carrito */
+}
+
+.cart .clear-button:hover {
+  background-color: #c82333; /* Color más oscuro al pasar el mouse */
+}
+
+.cart .continue-button {
+  margin-top: 20px; /* Espacio encima del botón de continuar */
+  width: 100%; /* Ancho completo */
+}

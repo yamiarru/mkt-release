@@ -1,0 +1,16 @@
+.carousel-container {
+    max-width: 1200px; /* Ajusta el ancho máximo según lo que desees */
+    margin: 20px auto; /* Centra el carrusel con margen superior e inferior */
+    padding: 10px; /* Agrega un poco de padding alrededor del carrusel */
+    border-radius: 15px; /* Bordes redondeados para el contenedor del carrusel */
+    overflow: hidden; /* Asegúrate de que las imágenes no sobresalgan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para un efecto de profundidad */
+  }
+  
+  .carousel img {
+    width: 80%; /* Haz la imagen un poco más pequeña */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  

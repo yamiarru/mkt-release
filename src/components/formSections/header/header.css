@@ -1,0 +1,97 @@
+/* Navbar básico */
+.header {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .navbar-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Botón del carrito */
+  .cart-icon-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  
+  /* Estilos del drawer */
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: -300px; /* El drawer está oculto inicialmente */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1000;
+    transition: right 0.3s ease; /* Transición para abrir/cerrar */
+  }
+  
+  .drawer.open {
+    right: 0; /* El drawer se desliza desde la derecha */
+  }
+  
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-drawer {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .drawer-content {
+    flex-grow: 1;
+    margin-top: 20px;
+    overflow-y: auto;
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
